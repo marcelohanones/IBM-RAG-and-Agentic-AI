@@ -6,11 +6,22 @@ readme = "README.md"
 authors = [
     { name = "Marcelo Hanones", email = "marcelohanones@gmail.com" }
 ]
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.13"
 dependencies = [
+    "chromadb==0.4.24",
     "ipykernel>=7.3.0",
     "jupyter>=1.1.1",
+    "langchain==0.3.30",
+    "langchain-community==0.3.31",
+    "langchain-experimental==0.3.4",
+    "langchain-openai==0.3.35",
+    "langchainhub==0.1.21",
+    # Pinned: chromadb 0.4.24 uses the removed `np.float_` alias, incompatible with numpy>=2.0.
+    "numpy<2",
+    # Pinned: onnxruntime (a chromadb dependency) dropped macOS x86_64 wheels after 1.23.x.
+    "onnxruntime==1.23.2",
     "openai>=2.53.0",
+    "pypdf==4.2.0",
     "python-dotenv>=1.2.2",
 ]
 
