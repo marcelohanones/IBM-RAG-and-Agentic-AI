@@ -21,6 +21,7 @@ dependencies = [
     # Pinned: onnxruntime (a chromadb dependency) dropped macOS x86_64 wheels after 1.23.x.
     "onnxruntime==1.23.2",
     "openai>=2.53.0",
+    "pandas>=3.0.5",
     "pypdf==4.2.0",
     "python-dotenv>=1.2.2",
 ]
@@ -31,3 +32,24 @@ ibm-rag-and-agentic-ai = "ibm_rag_and_agentic_ai:main"
 [build-system]
 requires = ["uv_build>=0.12.1,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.2",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "I",   # isort (import sorting)
+    "UP",  # pyupgrade
+]
+# F401 (unused import) fica visível como aviso mas nunca é removido no
+# fix-on-save — nos notebooks de investigação, importar antes de usar é
+# parte do fluxo (ex: probe/target/siblings do tetris2).
+unfixable = ["F401"]
