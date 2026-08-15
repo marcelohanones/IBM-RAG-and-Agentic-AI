@@ -49,6 +49,9 @@ select = [
     "I",   # isort (import sorting)
     "UP",  # pyupgrade
 ]
+# E501 (line too long) desligado — nos notebooks de investigação as linhas
+# de código vêm com comentários explicativos que ultrapassam o limite.
+ignore = ["E501"]
 # F401 (unused import) fica visível como aviso mas nunca é removido no
 # fix-on-save — nos notebooks de investigação, importar antes de usar é
 # parte do fluxo (ex: probe/target/siblings do tetris2).
