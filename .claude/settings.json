@@ -9,7 +9,10 @@
       "Bash(code --list-extensions --show-versions)",
       "Bash(echo \"=== exit code: $? ===\")",
       "Read(//Users/marcelohanones/Library/Application Support/Code/User/**)",
-      "Bash(find \"$HOME/.vscode/extensions\" -maxdepth 1 -iname \"*ruff*\" -o -iname \"*jupyter*\" -o -iname \"*ms-python*\" 2>/dev/null)"
+      "Bash(find \"$HOME/.vscode/extensions\" -maxdepth 1 -iname \"*ruff*\" -o -iname \"*jupyter*\" -o -iname \"*ms-python*\" 2>/dev/null)",
+      "Bash(sort -u -t: -k2)",
+      "Bash(python3 -m pyflakes /tmp/tt2.py)",
+      "Bash(uvx pyflakes *)"
     ]
   }
 }
