@@ -1,0 +1,844 @@
+2026-08-18 16:31:58.342 [info] [Window] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-08-18 16:31:58.461 [warning] [Window] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 147ms.
+2026-08-18 16:31:59.931 [info] [Window] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-08-18 16:32:00.108 [info] [Window] Started local extension host with pid 733.
+2026-08-18 16:32:00.198 [error] [Window] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-08-18 16:32:01.664 [info] [Window] [AgentHost:renderer] Protocol connection established; clientId=0ddbf764-f9a9-4ed2-9b06-c0d206432e63
+2026-08-18 16:32:05.550 [info] [Window] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-18 16:32:06.137 [error] [Window] [Extension Host] (node:733) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `Code Helper (Plugin) --trace-deprecation ...` to show where the warning was created)
+2026-08-18 16:32:06.228 [warning] [Window] Creation of workbench contribution 'workbench.contrib.localAgentsSessionsController' took 137ms.
+2026-08-18 16:32:10.130 [error] [Window] [Extension Host] (node:733) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-08-18 16:32:11.171 [info] [Window] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-18 16:32:12.745 [warning] [Window] Creation of workbench contribution 'terminal.chatAgentTools' took 149ms.
+2026-08-18 16:32:12.996 [info] [Window] Settings Sync: Account status changed from uninitialized to unavailable
+2026-08-18 16:32:15.245 [info] [Cloud Changes] Prompting to enable cloud changes, has application previously launched from Continue On flow: false
+2026-08-18 16:32:18.697 [info] [Window] [AgentHost] Authenticating for resource: https://api.github.com
+2026-08-18 16:32:19.999 [info] [Window] Extension host (LocalProcess pid: 733) is unresponsive.
+2026-08-18 16:32:22.287 [info] [Window] Extension host (LocalProcess pid: 733) is responsive.
+2026-08-18 16:32:24.037 [info] [Window] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-08-18 16:32:32.858 [warning] [Window] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-18 16:36:45.057 [warning] [Window] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-18 16:36:48.294 [warning] [Window] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-18 17:12:48.721 [error] [Window] Request handler failed with: index out of bounds: the len is 13 but the index is 15: Error: Request handler failed with: index out of bounds: the len is 13 but the index is 15
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111090
+	at ie (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111384)
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106179
+	at Immediate.<anonymous> (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106199)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-08-18 17:12:48.883 [error] [Window] Request handler failed with: index out of bounds: the len is 10 but the index is 14: Error: Request handler failed with: index out of bounds: the len is 10 but the index is 14
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111090
+	at ie (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111384)
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106179
+	at Immediate.<anonymous> (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106199)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-08-18 17:12:49.373 [error] [Window] Request handler failed with: index out of bounds: the len is 6 but the index is 13: Error: Request handler failed with: index out of bounds: the len is 6 but the index is 13
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111090
+	at ie (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111384)
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106179
+	at Immediate.<anonymous> (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106199)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-08-18 17:12:49.531 [error] [Window] Request handler failed with: index out of bounds: the len is 4 but the index is 12: Error: Request handler failed with: index out of bounds: the len is 4 but the index is 12
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111090
+	at ie (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111384)
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106179
+	at Immediate.<anonymous> (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106199)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-08-18 17:12:49.547 [error] [Window] Request handler failed with: index out of bounds: the len is 3 but the index is 11: Error: Request handler failed with: index out of bounds: the len is 3 but the index is 11
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111090
+	at ie (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111384)
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106179
+	at Immediate.<anonymous> (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106199)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-08-18 17:12:49.648 [error] [Window] Request handler failed with: index out of bounds: the len is 3 but the index is 10: Error: Request handler failed with: index out of bounds: the len is 3 but the index is 10
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111090
+	at ie (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111384)
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106179
+	at Immediate.<anonymous> (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106199)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-08-18 17:12:49.653 [error] [Window] Request handler failed with: index out of bounds: the len is 3 but the index is 9: Error: Request handler failed with: index out of bounds: the len is 3 but the index is 9
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111090
+	at ie (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111384)
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106179
+	at Immediate.<anonymous> (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106199)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-08-18 17:12:49.666 [error] [Window] Request handler failed with: index out of bounds: the len is 3 but the index is 8: Error: Request handler failed with: index out of bounds: the len is 3 but the index is 8
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111090
+	at ie (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111384)
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106179
+	at Immediate.<anonymous> (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106199)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-08-18 17:12:49.667 [error] [Window] Request handler failed with: index out of bounds: the len is 3 but the index is 7: Error: Request handler failed with: index out of bounds: the len is 3 but the index is 7
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111090
+	at ie (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111384)
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106179
+	at Immediate.<anonymous> (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106199)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-08-18 17:12:49.670 [error] [Window] Request handler failed with: index out of bounds: the len is 3 but the index is 6: Error: Request handler failed with: index out of bounds: the len is 3 but the index is 6
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111090
+	at ie (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111384)
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106179
+	at Immediate.<anonymous> (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106199)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-08-18 17:12:49.680 [error] [Window] Request handler failed with: index out of bounds: the len is 3 but the index is 5: Error: Request handler failed with: index out of bounds: the len is 3 but the index is 5
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111090
+	at ie (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111384)
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106179
+	at Immediate.<anonymous> (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106199)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-08-18 17:12:49.682 [error] [Window] Request handler failed with: index out of bounds: the len is 3 but the index is 4: Error: Request handler failed with: index out of bounds: the len is 3 but the index is 4
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111090
+	at ie (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:111384)
+	at /Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106179
+	at Immediate.<anonymous> (/Users/marcelohanones/.vscode/extensions/charliermarsh.ruff-2026.72.0-darwin-x64/dist/extension.js:1:106199)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-08-18 17:39:36.627 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:39:36.628 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:39:36.629 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ShiftRight, keyCode: 16, key: Shift
+2026-08-18 17:39:36.629 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ShiftRight, keyCode: 4 ('Shift')
+2026-08-18 17:39:36.629 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:39:36.762 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord shift.
+2026-08-18 17:39:37.063 [info] [Window] [KeybindingService]: + Clearing single modifier due to 300ms elapsed.
+2026-08-18 17:39:38.186 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:39:38.187 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:39:38.187 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ShiftRight, keyCode: 16, key: Shift
+2026-08-18 17:39:38.188 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ShiftRight, keyCode: 4 ('Shift')
+2026-08-18 17:39:38.188 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:39:38.352 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord shift.
+2026-08-18 17:39:38.352 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:39:38.360 [info] [Window] [KeybindingService]: | Resolving [Enter]
+2026-08-18 17:39:38.361 [info] [Window] [KeybindingService]: \ From 46 keybinding entries, no when clauses matched the context.
+2026-08-18 17:39:38.361 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Enter, keyCode: 13, key: Enter
+2026-08-18 17:39:38.361 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Enter, keyCode: 3 ('Enter')
+2026-08-18 17:39:38.361 [info] [Window] [KeybindingService]: | Resolving [Enter]
+2026-08-18 17:39:38.362 [info] [Window] [KeybindingService]: \ From 46 keybinding entries, no when clauses matched the context.
+2026-08-18 17:39:38.402 [info] [Window] [KeybindingService]: + Clearing single modifier due to other key up.
+2026-08-18 17:39:55.737 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:39:55.737 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:39:55.738 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ShiftRight, keyCode: 16, key: Shift
+2026-08-18 17:39:55.739 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ShiftRight, keyCode: 4 ('Shift')
+2026-08-18 17:39:55.739 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:39:55.886 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord shift.
+2026-08-18 17:39:56.186 [info] [Window] [KeybindingService]: + Clearing single modifier due to 300ms elapsed.
+2026-08-18 17:39:58.062 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:39:58.062 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:39:58.063 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ShiftRight, keyCode: 16, key: Shift
+2026-08-18 17:39:58.063 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ShiftRight, keyCode: 4 ('Shift')
+2026-08-18 17:39:58.063 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:39:58.212 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord shift.
+2026-08-18 17:39:58.213 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:39:58.213 [info] [Window] [KeybindingService]: | Resolving [Enter]
+2026-08-18 17:39:58.213 [info] [Window] [KeybindingService]: \ From 46 keybinding entries, no when clauses matched the context.
+2026-08-18 17:39:58.214 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Enter, keyCode: 13, key: Enter
+2026-08-18 17:39:58.214 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Enter, keyCode: 3 ('Enter')
+2026-08-18 17:39:58.214 [info] [Window] [KeybindingService]: | Resolving [Enter]
+2026-08-18 17:39:58.222 [info] [Window] [KeybindingService]: \ From 46 keybinding entries, no when clauses matched the context.
+2026-08-18 17:39:58.248 [info] [Window] [KeybindingService]: + Clearing single modifier due to other key up.
+2026-08-18 17:40:37.077 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:40:37.078 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:40:37.079 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ShiftLeft, keyCode: 16, key: Shift
+2026-08-18 17:40:37.079 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ShiftLeft, keyCode: 4 ('Shift')
+2026-08-18 17:40:37.079 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:40:37.152 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:40:37.153 [info] [Window] [KeybindingService]: | Resolving shift+[ArrowLeft]
+2026-08-18 17:40:37.153 [info] [Window] [KeybindingService]: \ From 3 keybinding entries, matched cursorLeftSelect, when: textInputFocus, source: built-in.
+2026-08-18 17:40:37.153 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ArrowLeft, keyCode: 37, key: ArrowLeft
+2026-08-18 17:40:37.154 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ArrowLeft, keyCode: 15 ('LeftArrow')
+2026-08-18 17:40:37.155 [info] [Window] [KeybindingService]: | Resolving shift+[ArrowLeft]
+2026-08-18 17:40:37.155 [info] [Window] [KeybindingService]: \ From 3 keybinding entries, matched cursorLeftSelect, when: textInputFocus, source: built-in.
+2026-08-18 17:40:37.155 [info] [Window] [KeybindingService]: + Invoking command cursorLeftSelect.
+2026-08-18 17:40:37.302 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:40:37.302 [info] [Window] [KeybindingService]: | Resolving shift+[ArrowUp]
+2026-08-18 17:40:37.303 [info] [Window] [KeybindingService]: \ From 4 keybinding entries, matched cursorUpSelect, when: textInputFocus, source: built-in.
+2026-08-18 17:40:37.303 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ArrowUp, keyCode: 38, key: ArrowUp
+2026-08-18 17:40:37.303 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ArrowUp, keyCode: 16 ('UpArrow')
+2026-08-18 17:40:37.304 [info] [Window] [KeybindingService]: | Resolving shift+[ArrowUp]
+2026-08-18 17:40:37.308 [info] [Window] [KeybindingService]: \ From 4 keybinding entries, matched cursorUpSelect, when: textInputFocus, source: built-in.
+2026-08-18 17:40:37.309 [info] [Window] [KeybindingService]: + Invoking command cursorUpSelect.
+2026-08-18 17:40:37.422 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:40:37.423 [info] [Window] [KeybindingService]: | Resolving shift+[ArrowLeft]
+2026-08-18 17:40:37.424 [info] [Window] [KeybindingService]: \ From 3 keybinding entries, matched cursorLeftSelect, when: textInputFocus, source: built-in.
+2026-08-18 17:40:37.424 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ArrowLeft, keyCode: 37, key: ArrowLeft
+2026-08-18 17:40:37.424 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ArrowLeft, keyCode: 15 ('LeftArrow')
+2026-08-18 17:40:37.425 [info] [Window] [KeybindingService]: | Resolving shift+[ArrowLeft]
+2026-08-18 17:40:37.425 [info] [Window] [KeybindingService]: \ From 3 keybinding entries, matched cursorLeftSelect, when: textInputFocus, source: built-in.
+2026-08-18 17:40:37.425 [info] [Window] [KeybindingService]: + Invoking command cursorLeftSelect.
+2026-08-18 17:40:37.811 [info] [Window] [KeybindingService]: + Ignoring single modifier shift due to it being pressed together with other keys.
+2026-08-18 17:40:49.241 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:40:49.242 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:40:49.242 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ShiftRight, keyCode: 16, key: Shift
+2026-08-18 17:40:49.242 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ShiftRight, keyCode: 4 ('Shift')
+2026-08-18 17:40:49.243 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:40:49.362 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:40:49.363 [info] [Window] [KeybindingService]: | Resolving shift+[Enter]
+2026-08-18 17:40:49.364 [info] [Window] [KeybindingService]: \ From 19 keybinding entries, matched notebook.cell.executeAndSelectBelow, when: notebookCellListFocused && !interactiveEditorFocused && notebookCellType == 'code' || editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused, source: user extension ms-toolsai.jupyter-keymap.
+2026-08-18 17:40:49.364 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: Enter, keyCode: 13, key: Enter
+2026-08-18 17:40:49.365 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: Enter, keyCode: 3 ('Enter')
+2026-08-18 17:40:49.365 [info] [Window] [KeybindingService]: | Resolving shift+[Enter]
+2026-08-18 17:40:49.365 [info] [Window] [KeybindingService]: \ From 19 keybinding entries, matched notebook.cell.executeAndSelectBelow, when: notebookCellListFocused && !interactiveEditorFocused && notebookCellType == 'code' || editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused, source: user extension ms-toolsai.jupyter-keymap.
+2026-08-18 17:40:49.366 [info] [Window] [KeybindingService]: + Invoking command notebook.cell.executeAndSelectBelow.
+2026-08-18 17:40:49.458 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord shift.
+2026-08-18 17:40:49.459 [info] [Window] [KeybindingService]: + Clearing single modifier due to other key up.
+2026-08-18 17:40:54.506 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ShiftRight, keyCode: 16, key: Shift
+2026-08-18 17:40:54.506 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ShiftRight, keyCode: 4 ('Shift')
+2026-08-18 17:40:54.507 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:40:54.580 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: Enter, keyCode: 13, key: Enter
+2026-08-18 17:40:54.581 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: Enter, keyCode: 3 ('Enter')
+2026-08-18 17:40:54.582 [info] [Window] [KeybindingService]: | Resolving shift+[Enter]
+2026-08-18 17:40:54.582 [info] [Window] [KeybindingService]: \ From 19 keybinding entries, matched notebook.cell.executeAndSelectBelow, when: notebookCellListFocused && !interactiveEditorFocused && notebookCellType == 'code' || editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused, source: user extension ms-toolsai.jupyter-keymap.
+2026-08-18 17:40:54.582 [info] [Window] [KeybindingService]: + Invoking command notebook.cell.executeAndSelectBelow.
+2026-08-18 17:40:54.672 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord shift.
+2026-08-18 17:40:54.695 [info] [Window] [KeybindingService]: + Clearing single modifier due to other key up.
+2026-08-18 17:40:57.237 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:40:57.237 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:40:57.238 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ShiftRight, keyCode: 16, key: Shift
+2026-08-18 17:40:57.238 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ShiftRight, keyCode: 4 ('Shift')
+2026-08-18 17:40:57.239 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:40:57.416 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord shift.
+2026-08-18 17:40:57.717 [info] [Window] [KeybindingService]: + Clearing single modifier due to 300ms elapsed.
+2026-08-18 17:40:59.426 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:40:59.427 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:40:59.427 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ShiftRight, keyCode: 16, key: Shift
+2026-08-18 17:40:59.427 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ShiftRight, keyCode: 4 ('Shift')
+2026-08-18 17:40:59.428 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:40:59.606 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord shift.
+2026-08-18 17:40:59.907 [info] [Window] [KeybindingService]: + Clearing single modifier due to 300ms elapsed.
+2026-08-18 17:41:02.232 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:41:02.233 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:41:02.233 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ShiftRight, keyCode: 16, key: Shift
+2026-08-18 17:41:02.233 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ShiftRight, keyCode: 4 ('Shift')
+2026-08-18 17:41:02.234 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:41:02.428 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord shift.
+2026-08-18 17:41:02.429 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:41:02.430 [info] [Window] [KeybindingService]: | Resolving [Enter]
+2026-08-18 17:41:02.437 [info] [Window] [KeybindingService]: \ From 46 keybinding entries, no when clauses matched the context.
+2026-08-18 17:41:02.438 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Enter, keyCode: 13, key: Enter
+2026-08-18 17:41:02.438 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Enter, keyCode: 3 ('Enter')
+2026-08-18 17:41:02.438 [info] [Window] [KeybindingService]: | Resolving [Enter]
+2026-08-18 17:41:02.439 [info] [Window] [KeybindingService]: \ From 46 keybinding entries, no when clauses matched the context.
+2026-08-18 17:41:02.453 [info] [Window] [KeybindingService]: + Clearing single modifier due to other key up.
+2026-08-18 17:41:17.807 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:41:17.808 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:41:17.808 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [meta], code: MetaLeft, keyCode: 91, key: Meta
+2026-08-18 17:41:17.808 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [meta], code: MetaLeft, keyCode: 57 ('Meta')
+2026-08-18 17:41:17.809 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:41:17.987 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:41:17.987 [info] [Window] [KeybindingService]: | Resolving meta+[KeyC]
+2026-08-18 17:41:17.988 [info] [Window] [KeybindingService]: \ From 11 keybinding entries, matched editor.action.clipboardCopyAction, when: no when condition, source: built-in.
+2026-08-18 17:41:17.988 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [meta], code: KeyC, keyCode: 67, key: c
+2026-08-18 17:41:17.988 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [meta], code: KeyC, keyCode: 33 ('C')
+2026-08-18 17:41:17.989 [info] [Window] [KeybindingService]: | Resolving meta+[KeyC]
+2026-08-18 17:41:17.989 [info] [Window] [KeybindingService]: \ From 11 keybinding entries, matched editor.action.clipboardCopyAction, when: no when condition, source: built-in.
+2026-08-18 17:41:17.989 [info] [Window] [KeybindingService]: + Invoking command editor.action.clipboardCopyAction.
+2026-08-18 17:41:18.181 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:41:18.182 [info] [Window] [KeybindingService]: | Resolving meta+[KeyC]
+2026-08-18 17:41:18.183 [info] [Window] [KeybindingService]: \ From 11 keybinding entries, matched editor.action.clipboardCopyAction, when: no when condition, source: built-in.
+2026-08-18 17:41:18.183 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [meta], code: KeyC, keyCode: 67, key: c
+2026-08-18 17:41:18.184 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [meta], code: KeyC, keyCode: 33 ('C')
+2026-08-18 17:41:18.184 [info] [Window] [KeybindingService]: | Resolving meta+[KeyC]
+2026-08-18 17:41:18.184 [info] [Window] [KeybindingService]: \ From 11 keybinding entries, matched editor.action.clipboardCopyAction, when: no when condition, source: built-in.
+2026-08-18 17:41:18.184 [info] [Window] [KeybindingService]: + Invoking command editor.action.clipboardCopyAction.
+2026-08-18 17:41:18.346 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord meta.
+2026-08-18 17:41:18.648 [info] [Window] [KeybindingService]: + Clearing single modifier due to 300ms elapsed.
+2026-08-18 17:42:23.745 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:42:23.745 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:42:23.746 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [meta], code: MetaLeft, keyCode: 91, key: Meta
+2026-08-18 17:42:23.747 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [meta], code: MetaLeft, keyCode: 57 ('Meta')
+2026-08-18 17:42:23.747 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:42:23.758 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:42:23.759 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:42:23.759 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift,meta], code: ShiftLeft, keyCode: 16, key: Shift
+2026-08-18 17:42:23.759 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift,meta], code: ShiftLeft, keyCode: 4 ('Shift')
+2026-08-18 17:42:23.759 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:42:23.880 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:42:23.881 [info] [Window] [KeybindingService]: | Resolving shift+meta+[ArrowUp]
+2026-08-18 17:42:23.882 [info] [Window] [KeybindingService]: \ From 5 keybinding entries, matched cursorTopSelect, when: textInputFocus, source: built-in.
+2026-08-18 17:42:23.882 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift,meta], code: ArrowUp, keyCode: 38, key: ArrowUp
+2026-08-18 17:42:23.882 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift,meta], code: ArrowUp, keyCode: 16 ('UpArrow')
+2026-08-18 17:42:23.882 [info] [Window] [KeybindingService]: | Resolving shift+meta+[ArrowUp]
+2026-08-18 17:42:23.883 [info] [Window] [KeybindingService]: \ From 5 keybinding entries, matched cursorTopSelect, when: textInputFocus, source: built-in.
+2026-08-18 17:42:23.883 [info] [Window] [KeybindingService]: + Invoking command cursorTopSelect.
+2026-08-18 17:42:24.660 [info] [Window] [KeybindingService]: + Ignoring single modifier meta due to it being pressed together with other keys.
+2026-08-18 17:42:26.354 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:42:26.355 [info] [Window] [KeybindingService]: | Resolving [Backspace]
+2026-08-18 17:42:26.356 [info] [Window] [KeybindingService]: \ From 3 keybinding entries, matched deleteLeft, when: textInputFocus, source: built-in.
+2026-08-18 17:42:26.356 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Backspace, keyCode: 8, key: Backspace
+2026-08-18 17:42:26.357 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Backspace, keyCode: 1 ('Backspace')
+2026-08-18 17:42:26.357 [info] [Window] [KeybindingService]: | Resolving [Backspace]
+2026-08-18 17:42:26.357 [info] [Window] [KeybindingService]: \ From 3 keybinding entries, matched deleteLeft, when: textInputFocus, source: built-in.
+2026-08-18 17:42:26.357 [info] [Window] [KeybindingService]: + Invoking command deleteLeft.
+2026-08-18 17:42:30.809 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:42:30.810 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:42:30.811 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [meta], code: MetaLeft, keyCode: 91, key: Meta
+2026-08-18 17:42:30.811 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [meta], code: MetaLeft, keyCode: 57 ('Meta')
+2026-08-18 17:42:30.812 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:42:31.034 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord meta.
+2026-08-18 17:42:31.124 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:42:31.125 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:42:31.125 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [meta], code: MetaLeft, keyCode: 91, key: Meta
+2026-08-18 17:42:31.125 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [meta], code: MetaLeft, keyCode: 57 ('Meta')
+2026-08-18 17:42:31.126 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:42:31.335 [info] [Window] [KeybindingService]: + Clearing single modifier due to 300ms elapsed.
+2026-08-18 17:42:31.395 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:42:31.395 [info] [Window] [KeybindingService]: | Resolving meta+[KeyS]
+2026-08-18 17:42:31.395 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, matched workbench.action.files.save, when: no when condition, source: built-in.
+2026-08-18 17:42:31.396 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [meta], code: KeyS, keyCode: 83, key: s
+2026-08-18 17:42:31.398 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [meta], code: KeyS, keyCode: 49 ('S')
+2026-08-18 17:42:31.399 [info] [Window] [KeybindingService]: | Resolving meta+[KeyS]
+2026-08-18 17:42:31.400 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, matched workbench.action.files.save, when: no when condition, source: built-in.
+2026-08-18 17:42:31.401 [info] [Window] [KeybindingService]: + Invoking command workbench.action.files.save.
+2026-08-18 17:42:31.531 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord meta.
+2026-08-18 17:42:31.832 [info] [Window] [KeybindingService]: + Clearing single modifier due to 300ms elapsed.
+2026-08-18 17:42:46.801 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:42:46.802 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:42:46.803 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:42:46.803 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:42:49.275 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyH, keyCode: 72, key: h
+2026-08-18 17:42:49.277 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyH, keyCode: 38 ('H')
+2026-08-18 17:42:49.277 [info] [Window] [KeybindingService]: | Resolving [KeyH]
+2026-08-18 17:42:49.277 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:42:49.440 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:42:49.441 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:42:49.441 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:42:49.442 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:42:49.560 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyR, keyCode: 82, key: r
+2026-08-18 17:42:49.561 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyR, keyCode: 48 ('R')
+2026-08-18 17:42:49.561 [info] [Window] [KeybindingService]: | Resolving [KeyR]
+2026-08-18 17:42:49.562 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:42:49.679 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:42:49.680 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:42:49.681 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:42:49.681 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:42:56.371 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:42:56.372 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:42:56.372 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:42:56.372 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:42:56.550 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyG, keyCode: 71, key: g
+2026-08-18 17:42:56.551 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyG, keyCode: 37 ('G')
+2026-08-18 17:42:56.551 [info] [Window] [KeybindingService]: | Resolving [KeyG]
+2026-08-18 17:42:56.552 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:42:56.775 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyO, keyCode: 79, key: o
+2026-08-18 17:42:56.777 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyO, keyCode: 45 ('O')
+2026-08-18 17:42:56.777 [info] [Window] [KeybindingService]: | Resolving [KeyO]
+2026-08-18 17:42:56.778 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:42:56.910 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:42:56.910 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:42:56.910 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:42:56.911 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:42:57.120 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyS, keyCode: 83, key: s
+2026-08-18 17:42:57.121 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyS, keyCode: 49 ('S')
+2026-08-18 17:42:57.121 [info] [Window] [KeybindingService]: | Resolving [KeyS]
+2026-08-18 17:42:57.122 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:08.626 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:08.626 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:08.627 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:08.627 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:08.744 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyT, keyCode: 84, key: t
+2026-08-18 17:43:08.745 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyT, keyCode: 50 ('T')
+2026-08-18 17:43:08.746 [info] [Window] [KeybindingService]: | Resolving [KeyT]
+2026-08-18 17:43:08.746 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:08.909 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyH, keyCode: 72, key: h
+2026-08-18 17:43:08.911 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyH, keyCode: 38 ('H')
+2026-08-18 17:43:08.911 [info] [Window] [KeybindingService]: | Resolving [KeyH]
+2026-08-18 17:43:08.911 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:09.014 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:43:09.015 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:43:09.015 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:43:09.016 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:09.570 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:09.571 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:09.571 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:09.572 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:09.825 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyL, keyCode: 76, key: l
+2026-08-18 17:43:09.826 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyL, keyCode: 42 ('L')
+2026-08-18 17:43:09.826 [info] [Window] [KeybindingService]: | Resolving [KeyL]
+2026-08-18 17:43:09.826 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:10.005 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyO, keyCode: 79, key: o
+2026-08-18 17:43:10.006 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyO, keyCode: 45 ('O')
+2026-08-18 17:43:10.006 [info] [Window] [KeybindingService]: | Resolving [KeyO]
+2026-08-18 17:43:10.007 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:10.784 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyG, keyCode: 71, key: g
+2026-08-18 17:43:10.785 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyG, keyCode: 37 ('G')
+2026-08-18 17:43:10.785 [info] [Window] [KeybindingService]: | Resolving [KeyG]
+2026-08-18 17:43:10.786 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:10.876 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyS, keyCode: 83, key: s
+2026-08-18 17:43:10.877 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyS, keyCode: 49 ('S')
+2026-08-18 17:43:10.877 [info] [Window] [KeybindingService]: | Resolving [KeyS]
+2026-08-18 17:43:10.878 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:13.724 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:13.725 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:13.726 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:13.726 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:13.889 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyF, keyCode: 70, key: f
+2026-08-18 17:43:13.890 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyF, keyCode: 36 ('F')
+2026-08-18 17:43:13.890 [info] [Window] [KeybindingService]: | Resolving [KeyF]
+2026-08-18 17:43:13.891 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:13.949 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyR, keyCode: 82, key: r
+2026-08-18 17:43:13.950 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyR, keyCode: 48 ('R')
+2026-08-18 17:43:13.950 [info] [Window] [KeybindingService]: | Resolving [KeyR]
+2026-08-18 17:43:13.951 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:14.099 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyO, keyCode: 79, key: o
+2026-08-18 17:43:14.100 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyO, keyCode: 45 ('O')
+2026-08-18 17:43:14.100 [info] [Window] [KeybindingService]: | Resolving [KeyO]
+2026-08-18 17:43:14.101 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:14.174 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyM, keyCode: 77, key: m
+2026-08-18 17:43:14.175 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyM, keyCode: 43 ('M')
+2026-08-18 17:43:14.175 [info] [Window] [KeybindingService]: | Resolving [KeyM]
+2026-08-18 17:43:14.176 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:14.519 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:14.520 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:14.521 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:14.521 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:14.669 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyT, keyCode: 84, key: t
+2026-08-18 17:43:14.670 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyT, keyCode: 50 ('T')
+2026-08-18 17:43:14.671 [info] [Window] [KeybindingService]: | Resolving [KeyT]
+2026-08-18 17:43:14.671 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:14.821 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyH, keyCode: 72, key: h
+2026-08-18 17:43:14.821 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyH, keyCode: 38 ('H')
+2026-08-18 17:43:14.822 [info] [Window] [KeybindingService]: | Resolving [KeyH]
+2026-08-18 17:43:14.822 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:15.014 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:43:15.015 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:43:15.016 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:43:15.016 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:15.447 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:15.447 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:15.447 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:15.448 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:19.484 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyT, keyCode: 84, key: t
+2026-08-18 17:43:19.485 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyT, keyCode: 50 ('T')
+2026-08-18 17:43:19.485 [info] [Window] [KeybindingService]: | Resolving [KeyT]
+2026-08-18 17:43:19.486 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:19.904 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyR, keyCode: 82, key: r
+2026-08-18 17:43:19.905 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyR, keyCode: 48 ('R')
+2026-08-18 17:43:19.906 [info] [Window] [KeybindingService]: | Resolving [KeyR]
+2026-08-18 17:43:19.906 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:20.384 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyO, keyCode: 79, key: o
+2026-08-18 17:43:20.385 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyO, keyCode: 45 ('O')
+2026-08-18 17:43:20.385 [info] [Window] [KeybindingService]: | Resolving [KeyO]
+2026-08-18 17:43:20.386 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:20.609 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyU, keyCode: 85, key: u
+2026-08-18 17:43:20.610 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyU, keyCode: 51 ('U')
+2026-08-18 17:43:20.610 [info] [Window] [KeybindingService]: | Resolving [KeyU]
+2026-08-18 17:43:20.611 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:20.880 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyB, keyCode: 66, key: b
+2026-08-18 17:43:20.881 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyB, keyCode: 32 ('B')
+2026-08-18 17:43:20.881 [info] [Window] [KeybindingService]: | Resolving [KeyB]
+2026-08-18 17:43:20.881 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:21.179 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyL, keyCode: 76, key: l
+2026-08-18 17:43:21.180 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyL, keyCode: 42 ('L')
+2026-08-18 17:43:21.181 [info] [Window] [KeybindingService]: | Resolving [KeyL]
+2026-08-18 17:43:21.181 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:21.374 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:43:21.375 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:43:21.375 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:43:21.376 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:21.853 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyS, keyCode: 83, key: s
+2026-08-18 17:43:21.855 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyS, keyCode: 49 ('S')
+2026-08-18 17:43:21.855 [info] [Window] [KeybindingService]: | Resolving [KeyS]
+2026-08-18 17:43:21.855 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:22.109 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyH, keyCode: 72, key: h
+2026-08-18 17:43:22.112 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyH, keyCode: 38 ('H')
+2026-08-18 17:43:22.113 [info] [Window] [KeybindingService]: | Resolving [KeyH]
+2026-08-18 17:43:22.113 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:22.394 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyO, keyCode: 79, key: o
+2026-08-18 17:43:22.396 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyO, keyCode: 45 ('O')
+2026-08-18 17:43:22.396 [info] [Window] [KeybindingService]: | Resolving [KeyO]
+2026-08-18 17:43:22.396 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:22.529 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyO, keyCode: 79, key: o
+2026-08-18 17:43:22.530 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyO, keyCode: 45 ('O')
+2026-08-18 17:43:22.531 [info] [Window] [KeybindingService]: | Resolving [KeyO]
+2026-08-18 17:43:22.531 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:22.842 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyT, keyCode: 84, key: t
+2026-08-18 17:43:22.843 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyT, keyCode: 50 ('T')
+2026-08-18 17:43:22.843 [info] [Window] [KeybindingService]: | Resolving [KeyT]
+2026-08-18 17:43:22.844 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:23.279 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyI, keyCode: 73, key: i
+2026-08-18 17:43:23.280 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyI, keyCode: 39 ('I')
+2026-08-18 17:43:23.280 [info] [Window] [KeybindingService]: | Resolving [KeyI]
+2026-08-18 17:43:23.280 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:23.310 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyN, keyCode: 78, key: n
+2026-08-18 17:43:23.311 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyN, keyCode: 44 ('N')
+2026-08-18 17:43:23.311 [info] [Window] [KeybindingService]: | Resolving [KeyN]
+2026-08-18 17:43:23.311 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:23.489 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyG, keyCode: 71, key: g
+2026-08-18 17:43:23.490 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyG, keyCode: 37 ('G')
+2026-08-18 17:43:23.490 [info] [Window] [KeybindingService]: | Resolving [KeyG]
+2026-08-18 17:43:23.491 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:23.819 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Period, keyCode: 190, key: .
+2026-08-18 17:43:23.821 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Period, keyCode: 89 ('.')
+2026-08-18 17:43:23.821 [info] [Window] [KeybindingService]: | Resolving [Period]
+2026-08-18 17:43:23.821 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:23.939 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:23.940 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:23.940 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:23.941 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:26.294 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyO, keyCode: 79, key: o
+2026-08-18 17:43:26.295 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyO, keyCode: 45 ('O')
+2026-08-18 17:43:26.295 [info] [Window] [KeybindingService]: | Resolving [KeyO]
+2026-08-18 17:43:26.296 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:26.654 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyN, keyCode: 78, key: n
+2026-08-18 17:43:26.655 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyN, keyCode: 44 ('N')
+2026-08-18 17:43:26.655 [info] [Window] [KeybindingService]: | Resolving [KeyN]
+2026-08-18 17:43:26.656 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:26.998 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:43:26.999 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:43:27.000 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:43:27.000 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:28.454 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:28.455 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:28.455 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:28.456 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:28.813 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyT, keyCode: 84, key: t
+2026-08-18 17:43:28.814 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyT, keyCode: 50 ('T')
+2026-08-18 17:43:28.815 [info] [Window] [KeybindingService]: | Resolving [KeyT]
+2026-08-18 17:43:28.815 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:28.979 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyI, keyCode: 73, key: i
+2026-08-18 17:43:28.980 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyI, keyCode: 39 ('I')
+2026-08-18 17:43:28.980 [info] [Window] [KeybindingService]: | Resolving [KeyI]
+2026-08-18 17:43:28.981 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:29.159 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyM, keyCode: 77, key: m
+2026-08-18 17:43:29.160 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyM, keyCode: 43 ('M')
+2026-08-18 17:43:29.160 [info] [Window] [KeybindingService]: | Resolving [KeyM]
+2026-08-18 17:43:29.161 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:29.324 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:43:29.325 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:43:29.325 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:43:29.326 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:30.374 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:30.375 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:30.375 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:30.376 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:30.674 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyI, keyCode: 73, key: i
+2026-08-18 17:43:30.675 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyI, keyCode: 39 ('I')
+2026-08-18 17:43:30.675 [info] [Window] [KeybindingService]: | Resolving [KeyI]
+2026-08-18 17:43:30.676 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:30.823 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyT, keyCode: 84, key: t
+2026-08-18 17:43:30.825 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyT, keyCode: 50 ('T')
+2026-08-18 17:43:30.825 [info] [Window] [KeybindingService]: | Resolving [KeyT]
+2026-08-18 17:43:30.825 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:31.034 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:31.035 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:31.035 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:31.035 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:31.349 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyW, keyCode: 87, key: w
+2026-08-18 17:43:31.350 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyW, keyCode: 53 ('W')
+2026-08-18 17:43:31.351 [info] [Window] [KeybindingService]: | Resolving [KeyW]
+2026-08-18 17:43:31.351 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:31.543 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyO, keyCode: 79, key: o
+2026-08-18 17:43:31.544 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyO, keyCode: 45 ('O')
+2026-08-18 17:43:31.545 [info] [Window] [KeybindingService]: | Resolving [KeyO]
+2026-08-18 17:43:31.545 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:31.724 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyR, keyCode: 82, key: r
+2026-08-18 17:43:31.725 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyR, keyCode: 48 ('R')
+2026-08-18 17:43:31.725 [info] [Window] [KeybindingService]: | Resolving [KeyR]
+2026-08-18 17:43:31.726 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:32.129 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyK, keyCode: 75, key: k
+2026-08-18 17:43:32.130 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyK, keyCode: 41 ('K')
+2026-08-18 17:43:32.130 [info] [Window] [KeybindingService]: | Resolving [KeyK]
+2026-08-18 17:43:32.131 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:32.354 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:43:32.355 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:43:32.355 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:43:32.355 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:32.563 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyD, keyCode: 68, key: d
+2026-08-18 17:43:32.565 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyD, keyCode: 34 ('D')
+2026-08-18 17:43:32.565 [info] [Window] [KeybindingService]: | Resolving [KeyD]
+2026-08-18 17:43:32.565 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:33.044 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Comma, keyCode: 188, key: ,
+2026-08-18 17:43:33.045 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Comma, keyCode: 87 (',')
+2026-08-18 17:43:33.045 [info] [Window] [KeybindingService]: | Resolving [Comma]
+2026-08-18 17:43:33.046 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:36.283 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: ArrowLeft, keyCode: 37, key: ArrowLeft
+2026-08-18 17:43:36.283 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: ArrowLeft, keyCode: 15 ('LeftArrow')
+2026-08-18 17:43:36.284 [info] [Window] [KeybindingService]: | Resolving [ArrowLeft]
+2026-08-18 17:43:36.284 [info] [Window] [KeybindingService]: \ From 14 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:36.784 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: ArrowLeft, keyCode: 37, key: ArrowLeft
+2026-08-18 17:43:36.785 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: ArrowLeft, keyCode: 15 ('LeftArrow')
+2026-08-18 17:43:36.785 [info] [Window] [KeybindingService]: | Resolving [ArrowLeft]
+2026-08-18 17:43:36.786 [info] [Window] [KeybindingService]: \ From 14 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:36.868 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: ArrowLeft, keyCode: 37, key: ArrowLeft
+2026-08-18 17:43:36.869 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: ArrowLeft, keyCode: 15 ('LeftArrow')
+2026-08-18 17:43:36.869 [info] [Window] [KeybindingService]: | Resolving [ArrowLeft]
+2026-08-18 17:43:36.869 [info] [Window] [KeybindingService]: \ From 14 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:36.953 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: ArrowLeft, keyCode: 37, key: ArrowLeft
+2026-08-18 17:43:36.953 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: ArrowLeft, keyCode: 15 ('LeftArrow')
+2026-08-18 17:43:36.953 [info] [Window] [KeybindingService]: | Resolving [ArrowLeft]
+2026-08-18 17:43:36.954 [info] [Window] [KeybindingService]: \ From 14 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:37.036 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: ArrowLeft, keyCode: 37, key: ArrowLeft
+2026-08-18 17:43:37.037 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: ArrowLeft, keyCode: 15 ('LeftArrow')
+2026-08-18 17:43:37.037 [info] [Window] [KeybindingService]: | Resolving [ArrowLeft]
+2026-08-18 17:43:37.037 [info] [Window] [KeybindingService]: \ From 14 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:37.124 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: ArrowLeft, keyCode: 37, key: ArrowLeft
+2026-08-18 17:43:37.125 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: ArrowLeft, keyCode: 15 ('LeftArrow')
+2026-08-18 17:43:37.125 [info] [Window] [KeybindingService]: | Resolving [ArrowLeft]
+2026-08-18 17:43:37.126 [info] [Window] [KeybindingService]: \ From 14 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:37.333 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: ArrowRight, keyCode: 39, key: ArrowRight
+2026-08-18 17:43:37.333 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: ArrowRight, keyCode: 17 ('RightArrow')
+2026-08-18 17:43:37.334 [info] [Window] [KeybindingService]: | Resolving [ArrowRight]
+2026-08-18 17:43:37.334 [info] [Window] [KeybindingService]: \ From 13 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:37.468 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: ArrowRight, keyCode: 39, key: ArrowRight
+2026-08-18 17:43:37.468 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: ArrowRight, keyCode: 17 ('RightArrow')
+2026-08-18 17:43:37.469 [info] [Window] [KeybindingService]: | Resolving [ArrowRight]
+2026-08-18 17:43:37.469 [info] [Window] [KeybindingService]: \ From 13 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:37.633 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: ArrowRight, keyCode: 39, key: ArrowRight
+2026-08-18 17:43:37.634 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: ArrowRight, keyCode: 17 ('RightArrow')
+2026-08-18 17:43:37.634 [info] [Window] [KeybindingService]: | Resolving [ArrowRight]
+2026-08-18 17:43:37.634 [info] [Window] [KeybindingService]: \ From 13 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:37.782 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: ArrowRight, keyCode: 39, key: ArrowRight
+2026-08-18 17:43:37.783 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: ArrowRight, keyCode: 17 ('RightArrow')
+2026-08-18 17:43:37.783 [info] [Window] [KeybindingService]: | Resolving [ArrowRight]
+2026-08-18 17:43:37.784 [info] [Window] [KeybindingService]: \ From 13 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:37.948 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: ArrowRight, keyCode: 39, key: ArrowRight
+2026-08-18 17:43:37.949 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: ArrowRight, keyCode: 17 ('RightArrow')
+2026-08-18 17:43:37.949 [info] [Window] [KeybindingService]: | Resolving [ArrowRight]
+2026-08-18 17:43:37.949 [info] [Window] [KeybindingService]: \ From 13 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:38.097 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: ArrowRight, keyCode: 39, key: ArrowRight
+2026-08-18 17:43:38.098 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: ArrowRight, keyCode: 17 ('RightArrow')
+2026-08-18 17:43:38.098 [info] [Window] [KeybindingService]: | Resolving [ArrowRight]
+2026-08-18 17:43:38.098 [info] [Window] [KeybindingService]: \ From 13 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:38.203 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: ArrowRight, keyCode: 39, key: ArrowRight
+2026-08-18 17:43:38.204 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: ArrowRight, keyCode: 17 ('RightArrow')
+2026-08-18 17:43:38.204 [info] [Window] [KeybindingService]: | Resolving [ArrowRight]
+2026-08-18 17:43:38.204 [info] [Window] [KeybindingService]: \ From 13 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:39.179 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:39.180 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:39.180 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:39.180 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:41.159 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyA, keyCode: 65, key: a
+2026-08-18 17:43:41.160 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyA, keyCode: 31 ('A')
+2026-08-18 17:43:41.160 [info] [Window] [KeybindingService]: | Resolving [KeyA]
+2026-08-18 17:43:41.161 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:41.398 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyN, keyCode: 78, key: n
+2026-08-18 17:43:41.399 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyN, keyCode: 44 ('N')
+2026-08-18 17:43:41.399 [info] [Window] [KeybindingService]: | Resolving [KeyN]
+2026-08-18 17:43:41.400 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:41.667 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyO, keyCode: 79, key: o
+2026-08-18 17:43:41.669 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyO, keyCode: 45 ('O')
+2026-08-18 17:43:41.669 [info] [Window] [KeybindingService]: | Resolving [KeyO]
+2026-08-18 17:43:41.669 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:41.818 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyT, keyCode: 84, key: t
+2026-08-18 17:43:41.819 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyT, keyCode: 50 ('T')
+2026-08-18 17:43:41.820 [info] [Window] [KeybindingService]: | Resolving [KeyT]
+2026-08-18 17:43:41.820 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:42.044 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyH, keyCode: 72, key: h
+2026-08-18 17:43:42.045 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyH, keyCode: 38 ('H')
+2026-08-18 17:43:42.045 [info] [Window] [KeybindingService]: | Resolving [KeyH]
+2026-08-18 17:43:42.045 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:42.239 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:43:42.240 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:43:42.241 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:43:42.241 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:42.297 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyR, keyCode: 82, key: r
+2026-08-18 17:43:42.298 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyR, keyCode: 48 ('R')
+2026-08-18 17:43:42.298 [info] [Window] [KeybindingService]: | Resolving [KeyR]
+2026-08-18 17:43:42.299 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:42.433 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:42.434 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:42.435 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:42.435 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:42.583 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyT, keyCode: 84, key: t
+2026-08-18 17:43:42.583 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyT, keyCode: 50 ('T')
+2026-08-18 17:43:42.584 [info] [Window] [KeybindingService]: | Resolving [KeyT]
+2026-08-18 17:43:42.584 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:42.707 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyI, keyCode: 73, key: i
+2026-08-18 17:43:42.708 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyI, keyCode: 39 ('I')
+2026-08-18 17:43:42.708 [info] [Window] [KeybindingService]: | Resolving [KeyI]
+2026-08-18 17:43:42.708 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:42.898 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyM, keyCode: 77, key: m
+2026-08-18 17:43:42.899 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyM, keyCode: 43 ('M')
+2026-08-18 17:43:42.899 [info] [Window] [KeybindingService]: | Resolving [KeyM]
+2026-08-18 17:43:42.900 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:42.988 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:43:42.989 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:43:42.990 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:43:42.990 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:43.153 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:43.154 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:43.155 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:43.155 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:43.513 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyI, keyCode: 73, key: i
+2026-08-18 17:43:43.514 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyI, keyCode: 39 ('I')
+2026-08-18 17:43:43.515 [info] [Window] [KeybindingService]: | Resolving [KeyI]
+2026-08-18 17:43:43.515 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:43.710 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyT, keyCode: 84, key: t
+2026-08-18 17:43:43.710 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyT, keyCode: 50 ('T')
+2026-08-18 17:43:43.710 [info] [Window] [KeybindingService]: | Resolving [KeyT]
+2026-08-18 17:43:43.711 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:43.843 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:43.845 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:43.845 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:43.845 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:44.129 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyD, keyCode: 68, key: d
+2026-08-18 17:43:44.130 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyD, keyCode: 34 ('D')
+2026-08-18 17:43:44.130 [info] [Window] [KeybindingService]: | Resolving [KeyD]
+2026-08-18 17:43:44.130 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:44.278 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyI, keyCode: 73, key: i
+2026-08-18 17:43:44.279 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyI, keyCode: 39 ('I')
+2026-08-18 17:43:44.280 [info] [Window] [KeybindingService]: | Resolving [KeyI]
+2026-08-18 17:43:44.280 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:44.489 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyD, keyCode: 68, key: d
+2026-08-18 17:43:44.490 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyD, keyCode: 34 ('D')
+2026-08-18 17:43:44.490 [info] [Window] [KeybindingService]: | Resolving [KeyD]
+2026-08-18 17:43:44.490 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:45.059 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyI, keyCode: 73, key: i
+2026-08-18 17:43:45.060 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyI, keyCode: 39 ('I')
+2026-08-18 17:43:45.060 [info] [Window] [KeybindingService]: | Resolving [KeyI]
+2026-08-18 17:43:45.061 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:45.268 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyN, keyCode: 78, key: n
+2026-08-18 17:43:45.269 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyN, keyCode: 44 ('N')
+2026-08-18 17:43:45.270 [info] [Window] [KeybindingService]: | Resolving [KeyN]
+2026-08-18 17:43:45.270 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:45.688 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Backquote, keyCode: 192, key: `
+2026-08-18 17:43:45.689 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Backquote, keyCode: 91 ('`')
+2026-08-18 17:43:45.690 [info] [Window] [KeybindingService]: | Resolving [Backquote]
+2026-08-18 17:43:45.690 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:46.348 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyT, keyCode: 84, key: t
+2026-08-18 17:43:46.350 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyT, keyCode: 50 ('T')
+2026-08-18 17:43:46.350 [info] [Window] [KeybindingService]: | Resolving [KeyT]
+2026-08-18 17:43:46.350 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:47.548 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Period, keyCode: 190, key: .
+2026-08-18 17:43:47.550 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Period, keyCode: 89 ('.')
+2026-08-18 17:43:47.550 [info] [Window] [KeybindingService]: | Resolving [Period]
+2026-08-18 17:43:47.550 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:47.879 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:47.880 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:47.880 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:47.881 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:48.103 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyI, keyCode: 73, key: i
+2026-08-18 17:43:48.104 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyI, keyCode: 39 ('I')
+2026-08-18 17:43:48.105 [info] [Window] [KeybindingService]: | Resolving [KeyI]
+2026-08-18 17:43:48.105 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:48.193 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:48.194 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:48.195 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:48.195 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:48.478 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyH, keyCode: 72, key: h
+2026-08-18 17:43:48.479 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyH, keyCode: 38 ('H')
+2026-08-18 17:43:48.480 [info] [Window] [KeybindingService]: | Resolving [KeyH]
+2026-08-18 17:43:48.480 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:48.973 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyO, keyCode: 79, key: o
+2026-08-18 17:43:48.974 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyO, keyCode: 45 ('O')
+2026-08-18 17:43:48.975 [info] [Window] [KeybindingService]: | Resolving [KeyO]
+2026-08-18 17:43:48.975 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:49.153 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyP, keyCode: 80, key: p
+2026-08-18 17:43:49.154 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyP, keyCode: 46 ('P')
+2026-08-18 17:43:49.154 [info] [Window] [KeybindingService]: | Resolving [KeyP]
+2026-08-18 17:43:49.154 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:49.307 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:43:49.307 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:43:49.308 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:43:49.308 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:50.130 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:50.130 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:50.130 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:50.131 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:50.443 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyI, keyCode: 73, key: i
+2026-08-18 17:43:50.444 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyI, keyCode: 39 ('I')
+2026-08-18 17:43:50.444 [info] [Window] [KeybindingService]: | Resolving [KeyI]
+2026-08-18 17:43:50.444 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:51.268 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyT, keyCode: 84, key: t
+2026-08-18 17:43:51.269 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyT, keyCode: 50 ('T')
+2026-08-18 17:43:51.269 [info] [Window] [KeybindingService]: | Resolving [KeyT]
+2026-08-18 17:43:51.269 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:51.388 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:51.389 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:51.390 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:51.390 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:51.643 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyG, keyCode: 71, key: g
+2026-08-18 17:43:51.644 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyG, keyCode: 37 ('G')
+2026-08-18 17:43:51.644 [info] [Window] [KeybindingService]: | Resolving [KeyG]
+2026-08-18 17:43:51.645 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:52.167 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyO, keyCode: 79, key: o
+2026-08-18 17:43:52.169 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyO, keyCode: 45 ('O')
+2026-08-18 17:43:52.169 [info] [Window] [KeybindingService]: | Resolving [KeyO]
+2026-08-18 17:43:52.169 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:52.288 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyT, keyCode: 84, key: t
+2026-08-18 17:43:52.289 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyT, keyCode: 50 ('T')
+2026-08-18 17:43:52.289 [info] [Window] [KeybindingService]: | Resolving [KeyT]
+2026-08-18 17:43:52.290 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:53.382 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:53.384 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:53.384 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:53.384 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:53.668 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyR, keyCode: 82, key: r
+2026-08-18 17:43:53.669 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyR, keyCode: 48 ('R')
+2026-08-18 17:43:53.670 [info] [Window] [KeybindingService]: | Resolving [KeyR]
+2026-08-18 17:43:53.670 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:53.742 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:43:53.744 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:43:53.744 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:43:53.744 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:54.508 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Backspace, keyCode: 8, key: Backspace
+2026-08-18 17:43:54.508 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Backspace, keyCode: 1 ('Backspace')
+2026-08-18 17:43:54.509 [info] [Window] [KeybindingService]: | Resolving [Backspace]
+2026-08-18 17:43:54.509 [info] [Window] [KeybindingService]: \ From 3 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:54.672 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Backspace, keyCode: 8, key: Backspace
+2026-08-18 17:43:54.672 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Backspace, keyCode: 1 ('Backspace')
+2026-08-18 17:43:54.673 [info] [Window] [KeybindingService]: | Resolving [Backspace]
+2026-08-18 17:43:54.673 [info] [Window] [KeybindingService]: \ From 3 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:55.482 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyL, keyCode: 76, key: l
+2026-08-18 17:43:55.483 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyL, keyCode: 42 ('L')
+2026-08-18 17:43:55.484 [info] [Window] [KeybindingService]: | Resolving [KeyL]
+2026-08-18 17:43:55.484 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:55.708 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyO, keyCode: 79, key: o
+2026-08-18 17:43:55.709 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyO, keyCode: 45 ('O')
+2026-08-18 17:43:55.709 [info] [Window] [KeybindingService]: | Resolving [KeyO]
+2026-08-18 17:43:55.710 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:56.292 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyG, keyCode: 71, key: g
+2026-08-18 17:43:56.293 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyG, keyCode: 37 ('G')
+2026-08-18 17:43:56.294 [info] [Window] [KeybindingService]: | Resolving [KeyG]
+2026-08-18 17:43:56.294 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:56.428 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyG, keyCode: 71, key: g
+2026-08-18 17:43:56.429 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyG, keyCode: 37 ('G')
+2026-08-18 17:43:56.429 [info] [Window] [KeybindingService]: | Resolving [KeyG]
+2026-08-18 17:43:56.430 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:56.472 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyE, keyCode: 69, key: e
+2026-08-18 17:43:56.473 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyE, keyCode: 35 ('E')
+2026-08-18 17:43:56.473 [info] [Window] [KeybindingService]: | Resolving [KeyE]
+2026-08-18 17:43:56.474 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:56.653 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: KeyD, keyCode: 68, key: d
+2026-08-18 17:43:56.654 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: KeyD, keyCode: 34 ('D')
+2026-08-18 17:43:56.655 [info] [Window] [KeybindingService]: | Resolving [KeyD]
+2026-08-18 17:43:56.655 [info] [Window] [KeybindingService]: \ From 1 keybinding entries, no when clauses matched the context.
+2026-08-18 17:43:58.243 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Period, keyCode: 190, key: .
+2026-08-18 17:43:58.244 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Period, keyCode: 89 ('.')
+2026-08-18 17:43:58.245 [info] [Window] [KeybindingService]: | Resolving [Period]
+2026-08-18 17:43:58.245 [info] [Window] [KeybindingService]: \ No keybinding entries.
+2026-08-18 17:43:58.378 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Space, keyCode: 32, key:  
+2026-08-18 17:43:58.379 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Space, keyCode: 10 ('Space')
+2026-08-18 17:43:58.379 [info] [Window] [KeybindingService]: | Resolving [Space]
+2026-08-18 17:43:58.380 [info] [Window] [KeybindingService]: \ From 9 keybinding entries, no when clauses matched the context.
+2026-08-18 17:44:01.465 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Enter, keyCode: 13, key: Enter
+2026-08-18 17:44:01.466 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Enter, keyCode: 3 ('Enter')
+2026-08-18 17:44:01.466 [info] [Window] [KeybindingService]: | Resolving [Enter]
+2026-08-18 17:44:01.466 [info] [Window] [KeybindingService]: \ From 46 keybinding entries, no when clauses matched the context.
+2026-08-18 17:45:12.250 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:45:12.251 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:45:12.251 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ShiftRight, keyCode: 16, key: Shift
+2026-08-18 17:45:12.252 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ShiftRight, keyCode: 4 ('Shift')
+2026-08-18 17:45:12.252 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:45:12.401 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord shift.
+2026-08-18 17:45:12.401 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:45:12.401 [info] [Window] [KeybindingService]: | Resolving [Enter]
+2026-08-18 17:45:12.402 [info] [Window] [KeybindingService]: \ From 46 keybinding entries, no when clauses matched the context.
+2026-08-18 17:45:12.410 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [], code: Enter, keyCode: 13, key: Enter
+2026-08-18 17:45:12.410 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [], code: Enter, keyCode: 3 ('Enter')
+2026-08-18 17:45:12.411 [info] [Window] [KeybindingService]: | Resolving [Enter]
+2026-08-18 17:45:12.411 [info] [Window] [KeybindingService]: \ From 46 keybinding entries, no when clauses matched the context.
+2026-08-18 17:45:12.436 [info] [Window] [KeybindingService]: + Clearing single modifier due to other key up.
+2026-08-18 17:46:02.857 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:46:02.858 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched
+2026-08-18 17:46:02.859 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: ShiftRight, keyCode: 16, key: Shift
+2026-08-18 17:46:02.860 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: ShiftRight, keyCode: 4 ('Shift')
+2026-08-18 17:46:02.860 [info] [Window] [KeybindingService]: \ Keyboard event cannot be dispatched in keydown phase.
+2026-08-18 17:46:03.038 [info] [Window] [KeybindingService]: / Soft dispatching keyboard event
+2026-08-18 17:46:03.039 [info] [Window] [KeybindingService]: | Resolving shift+[Enter]
+2026-08-18 17:46:03.039 [info] [Window] [KeybindingService]: \ From 19 keybinding entries, matched notebook.cell.executeAndSelectBelow, when: notebookCellListFocused && !interactiveEditorFocused && notebookCellType == 'code' || editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused, source: user extension ms-toolsai.jupyter-keymap.
+2026-08-18 17:46:03.040 [info] [Window] [KeybindingService]: / Received  keydown event - modifiers: [shift], code: Enter, keyCode: 13, key: Enter
+2026-08-18 17:46:03.040 [info] [Window] [KeybindingService]: | Converted keydown event - modifiers: [shift], code: Enter, keyCode: 3 ('Enter')
+2026-08-18 17:46:03.041 [info] [Window] [KeybindingService]: | Resolving shift+[Enter]
+2026-08-18 17:46:03.041 [info] [Window] [KeybindingService]: \ From 19 keybinding entries, matched notebook.cell.executeAndSelectBelow, when: notebookCellListFocused && !interactiveEditorFocused && notebookCellType == 'code' || editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused, source: user extension ms-toolsai.jupyter-keymap.
+2026-08-18 17:46:03.041 [info] [Window] [KeybindingService]: + Invoking command notebook.cell.executeAndSelectBelow.
+2026-08-18 17:46:03.055 [info] [Window] [KeybindingService]: + Storing single modifier for possible chord shift.
+2026-08-18 17:46:03.077 [info] [Window] [KeybindingService]: + Clearing single modifier due to other key up.

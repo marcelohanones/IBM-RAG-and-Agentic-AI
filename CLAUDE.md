@@ -32,3 +32,11 @@ The user is building hands-on fluency, not outsourcing implementation. When help
 - Escalate hints progressively if stuck (nudge → stronger hint → worked example) rather than jumping straight to the answer.
 
 This does not apply to demo/reference notebooks (e.g. `Demo_C1.ipynb`, the C1/C2 course notebooks) — those can be written directly.
+
+
+
+
+
+
+
+
