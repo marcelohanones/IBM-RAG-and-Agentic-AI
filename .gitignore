@@ -9,6 +9,8 @@ wheels/
 .env
 data/
 .vscode
+clones/
+CLAUDE.md
 
 # Virtual environments
 .venv

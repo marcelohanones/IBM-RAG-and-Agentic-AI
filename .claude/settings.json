@@ -19,7 +19,15 @@
       "Read(//Applications/Visual Studio Code.app/**)",
       "Bash(grep -o '\"editor\\\\.autoClosing[A-Za-z]*\"[^}]*\"default\":[^,}]*' \"/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js\" 2>/dev/null | head -20 *)",
       "Read(//Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/**)",
-      "Read(//Applications/Visual Studio Code.app/Contents/Resources/app/out/**)"
+      "Read(//Applications/Visual Studio Code.app/Contents/Resources/app/out/**)",
+      "WebFetch(domain:www.coursera.org)",
+      "Bash(.venv/bin/python -c ' *)",
+      "Bash(.venv/bin/python \"/private/tmp/claude-501/-Users-marcelohanones-Developer-personal-IBM-RAG-and-Agentic-AI/1bb71ac7-43a5-4076-b250-dfd474be5803/scratchpad/build_c2_01.py\")",
+      "Bash(.venv/bin/python \"/private/tmp/claude-501/-Users-marcelohanones-Developer-personal-IBM-RAG-and-Agentic-AI/1bb71ac7-43a5-4076-b250-dfd474be5803/scratchpad/patch_c2_01.py\")",
+      "Bash(python -c ' *)",
+      "Bash(python utils/nbtag.py notebooks/C2/C2-01-retrieval-concepts.ipynb)",
+      "Bash(cp __TRACKED_VAR__/C2-01.backup.ipynb notebooks/C2/C2-01-retrieval-concepts.ipynb)",
+      "Bash(md5 -q notebooks/C2/C2-01-retrieval-concepts.ipynb)"
     ]
   }
 }
