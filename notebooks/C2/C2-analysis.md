@@ -7,7 +7,7 @@ specialization. Course 2 ("Build RAG Applications") ships four artifacts:
 
 | item | source |
 |---|---|
-| 1 — Summarize private documents | `notebooks/C2/C2-Summarize private documents using RAG LangChain and LLMs.ipynb` |
+| 1 — Summarize private documents | `clones/IBM-RAG-and-Agentic-AI/02 Build RAG Applications/` |
 | 2 — Simple Gradio interface | `clones/IBM-RAG-and-Agentic-AI/02 Build RAG Applications/Watsonx.ai Chatbot/` |
 | 3 — Construct the QA bot | `clones/IBM-RAG-and-Agentic-AI-Professional-Certificate/.../project/qabot.py` |
 | 4 — AI Icebreaker | `clones/icebreaker/` |
@@ -101,9 +101,25 @@ which of what you know is *retrieval* and which is *LangChain's vocabulary for r
 Not a sixth theme in sequence; it cuts across A, C and E, and it is **not part of the
 certificate** — added here because courses 3–4 are unworkable without it.
 
-**Stage 1 — a golden set, at theme A.** The trigger is the first fork with no obvious right
-answer: stuff vs map_reduce vs refine. Without measurement that choice is decided by reading three
-outputs and forming an impression.
+It splits into three stages — but note first which side of the pipeline each stage measures,
+because an earlier draft of this file got that wrong and it matters for timing.
+
+**Retrieval metrics cannot adjudicate theme A.** `stuff` / `map_reduce` / `refine` share one
+retriever at one `k`; they retrieve *identical* chunks and differ only in what happens afterwards.
+`recall@k` and MRR are therefore constant across the three. The metric that actually decides that
+fork is generation-side **coverage**, and C2-01 already hand-rolled it in `[C.3c]`: policies named
+in the summary over the 9 in the answer key — retrieval+stuff 2/9, `map_reduce` 9/9, `refine` 5/9
+(the last capped by `max_tokens`, not by the strategy). One number turned "all three read fine"
+into a decision.
+
+**Stage 0 — coverage, now.** Lift that counter out of `[C.3c]` into
+`src/ibm_rag_and_agentic_ai/c2/eval/` while it is still five lines and its answer key is still a
+list of nine strings. It is the seed the harness grows from, and it is already written.
+
+**Stage 1 — a golden set, before course 3.** This is where `recall@k` and MRR belong, because
+their subject is the retrieval knob-turning that courses 3–4 are wall-to-wall with (FAISS vs
+Chroma, chunk sizes, retriever types). Building it at theme A would have measured a dimension
+theme A does not vary.
 
 Smallest useful version, roughly an afternoon:
 
@@ -117,21 +133,25 @@ Smallest useful version, roughly an afternoon:
 
 No LLM judge, deterministic, free, seconds to re-run. It answers the question that is otherwise
 pure guesswork: *is a bad answer caused by retrieval missing, or by generation fumbling context it
-did receive?* Those have opposite fixes.
+did receive?* Those have opposite fixes — and stage 0 covers the second half of that question
+while stage 1 covers the first.
 
 **Stage 2 — answer quality, at item 4b.** Two complete implementations of the same app, where
 "both seem fine" is not a conclusion. Add **faithfulness** (is the answer grounded in retrieved
 context?) and **answer relevance** via LLM-as-judge — noisier and no longer free, which is why it
-comes second. Two things line up here: `quoted_excerpts` (C1's open item, and course 2's exercise
+comes last. Two things line up here: `quoted_excerpts` (C1's open item, and course 2's exercise
 2) is the *prerequisite* — faithfulness is only checkable when the system reports what it used —
 and LlamaIndex ships evaluation modules, so stage 2 lands in the one course whose framework
 already has this built in.
 
-**Timing.** Not before item 1: measuring with no corpus and no baseline is theatre. Not deferred
-to courses 3–4 either — those are wall-to-wall knob-turning (FAISS vs Chroma, chunk sizes,
-retriever types) and without a harness they degenerate into swapping settings and squinting at
-outputs. Arriving with one already built makes them measurable, and avoids retrofitting it onto
-four apps at once.
+**Timing.** Not before item 1: measuring with no corpus and no baseline is theatre. Not *inside*
+courses 3–4 either — those are wall-to-wall knob-turning and without a harness they degenerate
+into swapping settings and squinting at outputs. Arriving with one already built makes them
+measurable.
+
+Stage 0 lands immediately (it is C2-01 code moving house). Stage 1 lands at the end of course 2,
+after theme D, so the golden set is written once against a settled pipeline rather than retrofitted
+onto four apps at once.
 
 **Tooling.** Hand-roll first — `recall@k` and MRR are a few lines each, and writing them is what
 teaches what they mean. RAGAS / DeepEval / LangSmith come after, once the question they're being
@@ -147,6 +167,19 @@ Item 1 gets read for the three ideas it uniquely raises (aggregation, condensati
 summarization gap) without re-typing a pipeline already built in C1. The application layer comes
 next, since it's the bulk of what's actually new. The framework comparison goes last, when the
 same app exists in two versions to compare.
+
+**Current position.** Themes A/B/C are built (`C2-01`, theme A pending a re-run), and theme D has
+started: item 2's Gradio tour is done. Next is item 3's qabot, built *literally* — re-embedding
+the PDF on every question — before it is fixed. Theme E follows. Stage 0 of the eval work can be
+lifted out of C2-01 at any point; it depends on nothing.
+
+| order | artifact | theme |
+|---|---|---|
+| done | `C2-01-retrieval-concepts.ipynb` | A / B / C |
+| done | `src/…/c2/gradio_tour/` (item 2) | D |
+| next | `src/…/c2/qabot/` (item 3) + `C2-02-app-lab.ipynb` | D |
+| then | `src/…/c2/icebreaker_li/`, `icebreaker_lc/` (item 4) + `C2-03-llamaindex-concepts.ipynb` | E |
+| last | `src/…/c2/eval/` stage 1 golden set | cross-cutting |
 
 ## Where course 2 sits in the 10-course arc
 
@@ -203,21 +236,18 @@ deferred:
 
 ## Item 1 — Summarize private documents (notebook)
 
-> **Provisional.** These notes describe IBM's notebook *as received* — the pristine copy in
-> `clones/`, which stays untouched per the source-material convention above. Themes A/B/C get
-> re-derived from it into `C2-01-retrieval-concepts.ipynb`; **this section gets rewritten once
-> that notebook exists**, down to a short pointer at the original. Nothing here describes our own
-> work.
+**Superseded by `C2-01-retrieval-concepts.ipynb`.** The original stays untouched in `clones/`; the
+three ideas it uniquely raises (subjects 4, 5, 6 — aggregation, condensation, the summarization
+gap) are re-derived there as themes A/B/C. Read the notebook, not this section, for the material.
 
-Same pipeline as item 3, cell for cell: `TextLoader` → `CharacterTextSplitter(1000/0)` →
-`OpenAIEmbeddings` → `Chroma` → `RetrievalQA.from_chain_type(chain_type="stuff")`.
+Kept here because it does not survive in the notebook:
 
-Goes past item 3 in two ways: prompt injection via `chain_type_kwargs`, and
-`ConversationalRetrievalChain` + `ConversationBufferMemory` for follow-up questions.
+**Pipeline it uses** — same as item 3, cell for cell: `TextLoader` →
+`CharacterTextSplitter(1000/0)` → `OpenAIEmbeddings` → `Chroma` →
+`RetrievalQA.from_chain_type(chain_type="stuff")`. Goes past item 3 in two ways: prompt injection
+via `chain_type_kwargs`, and `ConversationalRetrievalChain` + `ConversationBufferMemory`.
 
-**State:** does not run (see Context). **Uniquely raises** subjects 4, 5 and 6.
-
-Its three exercises foreshadow everything after it:
+**Its three exercises foreshadow everything after it:**
 
 | exercise | lands in |
 |---|---|
@@ -225,25 +255,34 @@ Its three exercises foreshadow everything after it:
 | 2 — return the source from the document | **C1's parked `quoted_excerpts` open item** |
 | 3 — use another LLM model | icebreaker's model dropdown |
 
-Defects — triaged, because three of them are curriculum rather than noise:
+**Defects in the original**, none of which are reproduced:
 
-*Noise; simply absent from the rewrite:*
+- `ConversationBufferMemory(..., return_message=True)` — the real kwarg is `return_message**s**`,
+  so the setting silently does nothing. Kept as a HINT in `[B.2b]`.
+- `qa.invoke({"question": q}, {"chat_history": history})` — `invoke`'s second positional arg is
+  `config`, not chat history. The manual `history` list is decorative; `memory` does all the work.
+- The `while True` REPL presented as "an agent" — no tools, no decisions.
+- Three cells call `qa(...)` directly (deprecated `__call__`); `def qa():` shadows the chain
+  variable above it; cell 102 holds stray pasted prompt text; dead imports per Context.
 
-- `ConversationBufferMemory(..., return_message=True)` — the real kwarg is `return_message**s**`.
-- Three cells call `qa(...)` directly — the deprecated `__call__` path.
-- `def qa():` shadows the chain variable defined above it.
-- Cell 102 holds stray pasted prompt text in a code cell.
-- The dead imports described in Context.
+**What building C2-01 actually taught**, beyond the three subjects:
 
-*Keep as deliberate teaching beats in `C2-01`:*
+- **Silent defaults beat wrong arguments.** `RetrievalQA.from_chain_type` accepts a call with no
+  `chain_type` and defaults to `"stuff"`. A factory that takes `chain_type` and forgets to forward
+  it produces three chains that are all `stuff`, three near-identical answers, and a call count of
+  1/1/1 — with no error anywhere. The LLM-call counter is what exposed it; reading the answers
+  never would have.
+- **Chat models do not fire `on_llm_start`.** `ChatOpenAI` fires `on_chat_model_start`, which
+  falls back to `on_llm_start` once per prompt only because `BaseCallbackHandler` leaves the
+  former unimplemented. A counter written for completion models happens to work; it is worth
+  knowing why.
+- **`Chroma.from_documents` appends.** Re-running a build cell doubles the collection with no
+  error — the trap in `[0.1b]`, and the notebook-scale rehearsal of item 3's re-ingestion bug.
+- **`refine` lost to `map_reduce` on coverage at equal cost** (5/9 vs 9/9, 16 vs 17 calls),
+  because its single running summary hits `max_tokens` and sheds later content. The failure is in
+  the interaction between the strategy and a generation cap, not in the strategy alone.
 
-- `qa.invoke({"question": q}, {"chat_history": history})` — the second positional arg of `invoke`
-  is `config`, not chat history. The manual `history` list is decorative; `memory` does all the
-  work. A clean example of code that looks like it works next to code that does.
-- The `while True` REPL presented as "an agent" — no tools, no decisions. Worth contrasting
-  against the real agent already built in C1.
-- `chain_type="stuff"` passed without comment — the unexamined default that theme A exists to
-  open up.
+**Status:** themes B and C complete; theme A pending re-run after the `chain_type` fix above.
 
 ## Item 2 — Watsonx.ai Chatbot (Gradio intro)
 
@@ -256,8 +295,23 @@ Four standalone scripts, no RAG:
 
 **Point of the lesson:** leaving the notebook — a `.py` file launched on a port.
 **Complexity:** trivial (~1h). Port is one line per file (`WatsonxLLM` → `ChatOpenAI`).
-**Notes:** pinned `gradio==4.44.0`; current is 5.x, where `allow_flagging=` became
-`flagging_mode=`. `gradio` is not currently in `pyproject.toml`.
+
+**Built** as `src/ibm_rag_and_agentic_ai/c2/gradio_tour/`, same four filenames, written directly
+per the guidance decision. Deviations from the original, all deliberate:
+
+- `demo.launch()` moved under `if __name__ == "__main__":` so each file is both a runnable process
+  and an importable module — `llm_chat` imports `generate_response` from `simple_llm` rather than
+  redefining it, which is the point of the pair.
+- `# %%` cell markers throughout, so VS Code runs them cell by cell without a notebook.
+- All four keep port 7860 rather than being given distinct ports: the collision when two run at
+  once is the first thing here a notebook cannot demonstrate.
+- Guidance is *break-and-observe* exercises in each module docstring, not TODOs. There is nothing
+  to fill in; there is plenty to poke.
+
+**Notes:** the clone pins `gradio==4.44.0`; this repo resolved to **6.25.0**, where
+`allow_flagging=` no longer exists at all (`flagging_mode=`). `ChatOpenAI.invoke()` returns an
+`AIMessage`, not the `str` that `WatsonxLLM.invoke()` returned — the chat-vs-completion split that
+also explains `C2-01`'s `on_llm_start` behaviour.
 
 ## Item 3 — qabot.py (course 2 graded project)
 
@@ -344,18 +398,22 @@ default, no process lifetime, no module boundaries, and resets by re-running a c
 and state bugs subjects 9–11 and 15 exist to teach can never surface in one. Converting items 2–4
 to notebooks would delete the largest new block in the course.
 
+Notebook numbers follow the **theme order (A→E)**, not the order the ideas were first written
+down. Theme E is last in the sequence, so its notebook is last in the numbering:
+
 ```
 notebooks/C2/
   C2-analysis.md                    ← this file
   C2-01-retrieval-concepts.ipynb    themes A/B/C — item 1 rebuilt, ideas only
-  C2-02-llamaindex-concepts.ipynb   theme E concepts — Node / Index / QueryEngine
-  C2-03-app-lab.ipynb               scratch + test harness for the apps below
+  C2-02-app-lab.ipynb               theme D — scratch + test harness for the apps below
+  C2-03-llamaindex-concepts.ipynb   theme E concepts — Node / Index / QueryEngine
 
 src/ibm_rag_and_agentic_ai/c2/
   gradio_tour/     item 2   (.py with # %% cell markers)
   qabot/           item 3
   icebreaker_li/   item 4a — LlamaIndex
   icebreaker_lc/   item 4b — LangChain variant
+  eval/            cross-cutting — stage 0 coverage now, stage 1 golden set after theme D
 ```
 
 Apps live inside the existing editable-installed package (`ibm_rag_and_agentic_ai.pth` → `src/`),
@@ -383,6 +441,11 @@ The lab→product loop — the `CLAUDE.md` working agreement extended across the
 
 - **Sequencing:** themes A→E, items as raw material (above).
 - **Delivery:** concept notebooks + app modules under `src/`, per the two sections above.
+- **Notebook numbering follows theme order**, so theme E's notebook is `C2-03`, not `C2-02`. An
+  earlier draft numbered it `C2-02` while the sequencing put theme E last — the two disagreed.
+- **Eval is staged 0/1/2**, not 1/2. Stage 0 is the coverage counter already written in C2-01;
+  `recall@k` and MRR move to stage 1, after theme D, because they cannot measure the theme A fork
+  that originally triggered them.
 - **Item 4 framework:** LlamaIndex first (as the course intends), then a **LangChain v1 variant**
   of the same app as a deliberate side-by-side.
 - **Guidance level:** item 2 written directly (Gradio boilerplate); items 3 and 4 **scaffolded
@@ -390,7 +453,11 @@ The lab→product loop — the `CLAUDE.md` working agreement extended across the
 
 ## Environment work the rewrite will need (verify, don't assume)
 
-- `gradio` (5.x) added to `pyproject.toml` — currently absent.
+- ~~`gradio` (5.x) added to `pyproject.toml`~~ — **done**, and it resolved to **6.25.0**, not 5.x.
+  `numpy` held at 1.26.4, so the `chromadb` pin is unaffected. Two API consequences: gradio 6
+  removed `allow_flagging=` outright (5.x renamed it to `flagging_mode=`; 6.x raises), and the
+  course material is now two majors behind, so expect more of these in item 3's `gr.Interface`
+  and item 4's `gr.Blocks` / `Chatbot`.
 - For item 4: `llama-index`, `llama-index-llms-openai`, `llama-index-embeddings-openai`.
   **Must check** these resolve under the existing `numpy<2` pin (forced by `chromadb==0.4.24`,
   see `CLAUDE.md`) on macOS x86_64 before committing to the LlamaIndex path.
